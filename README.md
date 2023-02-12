@@ -15,11 +15,13 @@ Launching a website with this template will take 5-10 minutes:
 
 2. 🪄 **Instantiate** this template repository [by clicking the green "Use this template" button above](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
 
-3. 📰 Go to the page of your repository, and [select the `gh-pages` branch as a **publishing source**](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), to publish the website on GitHub Pages.
+3. 👮 **Enable write permissions for GitHub Actions**, [by setting the permission level of `GITHUB_TOKEN` to "Read and write permissions", as described in the documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#configuring-the-default-github_token-permissions).
 
-4. 🛠️ Edit the file `config.toml` to change the value of `baseURL`: It must reflect **the absolute URL of your website**, including the protocol (`https://`), the domain name, and the path to the root of your website (this is usually `https://<your GitHub username>.github.io/<the name of the repository>`, for instance the original website for this template is [https://jlumbroso.github.io/hugo-stack-template/](https://jlumbroso.github.io/hugo-stack-template/)). Once you commit this change, the website will be automatically deployed to GitHub Pages! 🥳🎉
+4. 📰 Go to the page of your repository, and [select the `gh-pages` branch as a **publishing source**](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch), to publish the website on GitHub Pages.
 
-5. 📝 Update the `README.md` so it doesn't look like you just instantiated the template! 😁
+5. 🛠️ Edit the file `config.yanl` to change the value of `baseURL`: It must reflect **the absolute URL of your website**, including the protocol (`https://`), the domain name, and the path to the root of your website (this is usually `https://<your GitHub username>.github.io/<the name of the repository>`, for instance the original website for this template is [https://jlumbroso.github.io/hugo-stack-template/](https://jlumbroso.github.io/hugo-stack-template/)). Once you commit this change, the website will be automatically deployed to GitHub Pages! 🥳🎉
+
+6. 📝 Update the `README.md` so it doesn't look like you just instantiated the template! 😁
 
 Once you are done, you can visit [Stack's documentation](https://stack.jimmycai.com/) to learn how to customize your website.
 
